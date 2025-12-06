@@ -1,11 +1,12 @@
 
 table td {
     border: 1px solid black;
-    content: center;
-    padding: 0px 8px
+    padding: 8px 0px;
 }
 table th {
     border: 1px solid black;
+    font-family: 'creepster', cursive;
+    font-size: 3em;
 }
 
 table {
@@ -13,10 +14,14 @@ table {
     width: 100%;
     
 }
-
+table caption {
+    font-size: 3em;
+    padding: 50px;
+}
 table tr:nth-last-child(2) td:nth-child(2) {
     background-color: rgb(201, 21, 114);
     font-weight: bold;
+
 }
 video {
     box-shadow: 4px 4px 8px;
