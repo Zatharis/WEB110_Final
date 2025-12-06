@@ -14,9 +14,8 @@ table {
     
 }
 
-
-rt:nth-last-child(2) td:nth-child(2) {
-    background-color: rgb(148, 21, 106);
+table tr:nth-last-child(2) td:nth-child(2) {
+    background-color: rgb(201, 21, 114);
     font-weight: bold;
 }
 video {
