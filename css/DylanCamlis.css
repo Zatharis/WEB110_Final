@@ -41,6 +41,9 @@ table tr:nth-last-child(2) td:nth-child(2) {
 video {
     box-shadow: 4px 4px 8px;
     padding: 8px 4px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 article:first-of-type img {
@@ -60,7 +63,21 @@ article:last-of-type img {
 article:last-of-type img:hover{
     transform: rotate(-45deg);
 }
-@media (max-width: 900px){
-    
-    
+@media (max-width: 670px){
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    header li{
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width:550px){
+    section article {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
