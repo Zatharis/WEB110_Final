@@ -42,3 +42,25 @@ video {
     box-shadow: 4px 4px 8px;
     padding: 8px 4px;
 }
+
+article:first-of-type img {
+    transition-property: rotate;
+    transition: ease-in;
+    transition-duration: 2s;
+}
+article:first-of-type img:hover {
+    transform: rotate(45deg);
+}
+
+article:last-of-type img {
+    transition-property: rotate;
+    transition: ease-in;
+    transition-duration: 2s;
+}
+article:last-of-type img:hover{
+    transform: rotate(-45deg);
+}
+@media (max-width: 900px){
+    
+    
+}
